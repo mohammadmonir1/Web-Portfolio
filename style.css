@@ -20,7 +20,7 @@ h2{
     color: orange;
 }
 .left{
-    width: 40%;
+    width: 38%;
     float: left;
     margin: 4%;
     padding: 1%;
@@ -46,12 +46,24 @@ h2{
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
     height: 60%;
+    background-color: white;
 }
 .experience{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
-#its{
-    background-color: red;
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full-e{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
 }
